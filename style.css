@@ -103,3 +103,14 @@ footer .logo{color:#fff;font-size:1.2rem}
 .legal{max-width:760px}
 .legal h1{margin-top:48px;font-size:2.2rem}
 .legal h2{font-size:1.2rem;margin-top:28px}
+
+/* language switch */
+header .wrap{flex-wrap:wrap;height:auto;min-height:64px;gap:10px;padding-top:10px;padding-bottom:10px}
+nav.lang{display:flex;flex-wrap:wrap;gap:6px}
+nav.lang a{margin:0;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:.95rem;font-weight:600;background:var(--card)}
+nav.lang a[aria-current="page"]{background:var(--green);border-color:var(--green);color:#fff}
+@media (prefers-color-scheme:dark){nav.lang a[aria-current="page"]{color:#10140f}}
+@media (max-width:520px){header .wrap{justify-content:center}nav.lang{justify-content:center}}
+[lang="ur"]{font-family:"Noto Nastaliq Urdu","Urdu Typesetting","Jameel Noori Nastaleeq","Noto Naskh Arabic",system-ui,sans-serif}
+html[lang="ur"] body{line-height:2}
+html[lang="ur"] .hero h1{line-height:1.6}
