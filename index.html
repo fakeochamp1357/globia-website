@@ -3,20 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Globia – bald online</title>
-<style>
-:root{--bg:#f6f4ee;--fg:#1f2a24;--accent:#2f7d4f}
-@media (prefers-color-scheme:dark){:root{--bg:#161b18;--fg:#eef1ec;--accent:#6fcf97}}
-body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,sans-serif;text-align:center;padding:0 16px}
-h1{font-size:clamp(2.5rem,8vw,4.5rem);margin:0 0 .5rem;color:var(--accent)}
-p{font-size:1.15rem;margin:.25rem 0}
-</style>
+<title>Globia Supermarkt Mönchengladbach</title>
+<meta name="description" content="Globia – Ihr Supermarkt für Lebensmittel aus Afrika und Asien in Mönchengladbach, Hindenburgstraße 220.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<h1>Globia</h1>
-<p>Unsere Website ist bald online.</p>
-<p>Wir freuen uns auf Ihren Besuch.</p>
+<header><div class="wrap">
+  <a class="logo" href="/">Globia</a>
+  <nav><a href="#sortiment">Sortiment</a><a href="#kontakt">Kontakt</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>Der Geschmack von <span>Afrika und Asien</span><br>in Mönchengladbach</h1>
+    <p>Ihr Supermarkt für Lebensmittel aus der Heimat.</p>
+    <p class="en">Your supermarket for groceries from Africa and Asia.</p>
+    <a class="btn" href="#kontakt">So finden Sie uns · Find us</a>
+  </div>
+
+  <section id="sortiment">
+    <h2>Unser Sortiment</h2>
+    <p class="en">What you will find</p>
+    <div class="grid">
+      <div class="card"><h3>Reis &amp; Mehl</h3><p>Rice &amp; flour</p></div>
+      <div class="card"><h3>Gewürze &amp; Saucen</h3><p>Spices &amp; sauces</p></div>
+      <div class="card"><h3>Obst &amp; Gemüse</h3><p>Fruit &amp; vegetables</p></div>
+      <div class="card"><h3>Tiefkühlware</h3><p>Frozen food</p></div>
+      <div class="card"><h3>Getränke &amp; Snacks</h3><p>Drinks &amp; snacks</p></div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Besuchen Sie uns</h2>
+    <p class="en">Visit us</p>
+    <div class="info">
+      <div class="card">
+        <h3>Adresse · Address</h3>
+        <p>Globia<br>Hindenburgstraße 220<br>41061 Mönchengladbach</p>
+        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Hindenburgstra%C3%9Fe+220%2C+41061+M%C3%B6nchengladbach">Route planen · Directions</a></p>
+      </div>
+      <div class="card">
+        <h3>Öffnungszeiten · Opening hours</h3>
+        <p>OEFFNUNGSZEITEN</p>
+      </div>
+      <div class="card">
+        <h3>Kontakt · Contact</h3>
+        <p>Telefon: <a href="tel:+4915215994879">+49 152 15994879</a><br>
+        E-Mail: <a href="mailto:pind-enterprise114@proton.me">pind-enterprise114@proton.me</a></p>
+      </div>
+    </div>
+  </section>
 </main>
+
+<footer><div class="wrap">
+  <a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a>
+  <span>© 2026 Globia</span>
+</div></footer>
 </body>
 </html>
